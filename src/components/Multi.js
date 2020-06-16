@@ -1,10 +1,10 @@
 import React from 'react'
-import { Text } from 'react-native'
+import { View, Text, Button } from 'react-native'
 import Default from '../style/Default'
 
 export const Inverter = props => {
     const inv = props.texto.split('').reverse().join('')
-    return <Text style={Default.ex}>{inv}</Text>
+    return <Text style={Default.ex}>{inv.navigation}</Text>
 }
 
 export const MegaSena = props => {
