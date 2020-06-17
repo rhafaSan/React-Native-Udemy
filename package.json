@@ -11,8 +11,10 @@
   },
   "dependencies": {
     "@react-native-community/masked-view": "^0.1.10",
+    "@react-navigation/compat": "^5.1.26",
     "@react-navigation/drawer": "^5.8.2",
     "@react-navigation/native": "^5.5.1",
+    "@react-navigation/stack": "^5.5.1",
     "react": "16.11.0",
     "react-native": "0.62.2",
     "react-native-gesture-handler": "^1.6.1",
@@ -29,7 +31,8 @@
     "eslint": "^7.2.0",
     "jest": "^26.0.1",
     "metro-react-native-babel-preset": "^0.59.0",
-    "react-test-renderer": "16.11.0"
+    "react-test-renderer": "16.11.0",
+    "schedule": "^0.4.0"
   },
   "jest": {
     "preset": "react-native"
