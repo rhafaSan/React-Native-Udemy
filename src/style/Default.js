@@ -1,7 +1,7 @@
 import { StyleSheet }  from 'react-native'
 
 export default StyleSheet.create({
-  ex: {
+   ex: {
     paddingHorizontal: 15,
     marginVertical: 5,
     borderRadius: 10,
